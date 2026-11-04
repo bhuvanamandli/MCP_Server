@@ -10,18 +10,18 @@ def get_financial_report():
     """
     return {
         2022: {
-            "revenue": "₹50 Crores",
-            "expenses": "₹35 Crores",
-            "net_profit": "₹15 Crores",
-            "growth": "8%",
-            "status": "Profitable"
+            "revenue": "₹30 Crores",
+            "expenses": "₹40 Crores",
+            "net_loss": "₹10 Crores",
+            "growth": "-5%",
+            "status": "Loss"
         },
         2023: {
-            "revenue": "₹65 Crores",
-            "expenses": "₹42 Crores",
-            "net_profit": "₹23 Crores",
-            "growth": "12%",
-            "status": "Profitable"
+            "revenue": "₹40 Crores",
+            "expenses": "₹50 Crores",
+            "net_loss": "₹10 Crores",
+            "growth": "-3%",
+            "status": "Loss"
         },
         2024: {
             "revenue": "₹80 Crores",
@@ -56,7 +56,7 @@ def get_revenue_comparison():
         "Highest revenue year": "2026",
         "Highest revenue": "₹125 Crores",
         "Lowest revenue year": "2022",
-        "Lowest revenue": "₹50 Crores"
+        "Lowest revenue": "₹30 Crores"
     }
 
 
@@ -66,9 +66,10 @@ def total_profit_and_loss():
     Returns the overall profit and loss summary.
     """
     return {
-        "total": "₹138 Crores",
+        "total_profit": "₹100 Crores",
+        "total_loss": "₹20 Crores",
         "profit": "yes",
-        "loss": "No",
+        "loss": "yes",
         "status": "Overall profitable"
     }
 
